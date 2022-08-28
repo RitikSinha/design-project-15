@@ -1,0 +1,67 @@
+@media screen and (max-width: 1140px) {
+  .logo {
+    width: 120px;
+  }
+  nav {
+    padding: 20px 10px;
+  }
+  .list {
+    display: none;
+  }
+}
+/* smaller screen */
+@media screen and (max-width: 940px) {
+  .hero-section {
+    flex-direction: column;
+    margin: 0 10px;
+  }
+  .hero {
+    width: 100%;
+  }
+  .right {
+    align-items: center;
+  }
+  .name {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .heading {
+    font-size: 3rem;
+    text-align: center;
+  }
+  .text {
+    text-align: center;
+  }
+  .card-section {
+    flex-direction: column;
+  }
+  .experience {
+    flex-direction: column;
+  }
+  .grid-box-1 {
+    padding: 0px 10px;
+    grid-template-columns: 1fr;
+  }
+  .projects {
+    padding: 0px 10px;
+    grid-template-columns: 1fr;
+  }
+  .contact {
+    flex-direction: column;
+    align-items: center;
+  }
+  .left {
+    margin-right: 0;
+  }
+  .left h1 {
+    text-align: center;
+    font-size: 1.4rem;
+  }
+  footer div {
+    margin-left: 0%;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+}
